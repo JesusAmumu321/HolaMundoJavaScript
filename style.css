@@ -1,0 +1,24 @@
+#todoLista {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.toggle-btn,
+.btnBorrar {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.completada {
+  text-decoration: line-through;
+  color: gray;
+}
